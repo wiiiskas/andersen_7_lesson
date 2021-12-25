@@ -1,0 +1,11 @@
+const Car = require("./car");
+const car = new Car();
+car.brand = 'Toyota';
+car.model = 'Corolla 120';
+car.fuelConsumption = 8;
+car.maxSpeed = 240;
+car.maxFuelVolume = 20;
+car.fillUpGasTank(20);
+car.start();
+car.drive(100, 2);
+console.log(car.mileage);
